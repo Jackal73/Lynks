@@ -1,0 +1,26 @@
+{
+  "better-comments.highlightPlainText": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "addMissingImports": "explicit",
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "editor.scrollBeyondLastColumn": 2,
+  "editor.showUnused": true,
+  "editor.smoothScrolling": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 100,
+  "files.autoSave": "onFocusChange",
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "javascript.validate.enable": false,
+  "prettier.requireConfig": false,
+  "prettier.enable": true,
+  "editor.mouseWheelZoom": true
+}

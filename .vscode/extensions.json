@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "dbaeumer.vscode-eslint",
+    "donjayamanne.git-extension-pack",
+    "esbenp.prettier-vscode",
+    "meganrogge.template-string-converter",
+    "mgmcdermott.vscode-language-babel",
+    "ms-vsliveshare.vsliveshare-pack"
+  ]
+}
