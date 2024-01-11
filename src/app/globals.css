@@ -2,26 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply bg-[#000000];
+}
+
+/* *********************************************************** */
+
+input[type="text"],
+textarea {
+  /* @apply bg-gray-100 w-full block py-2 px-2 mb-2; */
+  @apply bg-[#1f1f1f] w-full block py-2 px-2 text-[#7b7b7b];
+}
+
+label.input-label {
+  @apply uppercase text-[#9b9b9b] font-semibold text-xs mb-2;
+}
+
+/* *********************************************************** */
+.radio-togglers {
+  @apply p-1 bg-[#1f1f1f] inline-flex;
+}
+
+.radio-togglers div {
+  @apply p-2 px-4 text-[#9b9b9b] flex items-center gap-2 cursor-pointer;
+}
+
+.radio-togglers input[type="radio"] {
+  @apply hidden;
+}
+
+.radio-togglers input[type="radio"]:checked + div {
+  @apply bg-[#3b3b3b] text-[#9b9b9b];
+}
+
+/* ************************************************************* */
+.sortable-ghost {
+  opacity: 0.3;
+}
+
+/* ************************************************************* */
+input#navCb:checked ~ aside {
+  left: 0;
+}
+
+input#navCb:checked ~ .backdrop {
+  display: block;
 }
