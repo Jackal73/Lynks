@@ -36,16 +36,16 @@ export default function HeroForm({ user }) {
   return (
     <form
       onSubmit={handleSubmit}
-      className="inline-flex items-center shadow-lg shadow-gray-700/20 bg-white"
+      className="inline-flex items-center shadow-lg shadow-gray-700/20 bg-[#1f1f1f]"
     >
-      <span className="bg-white py-4 pl-4">lynks.to/</span>
+      <span className="bg-[#1f1f1f] text-[#9b9b9b] py-4 pl-4">lynks.to/</span>
       <input
         // value={username}
         // onChange={(ev) => setUsername(ev.target.value)}
         type="text"
         // className="py-4 !bg-white !mb-0 !pl-0"
         placeholder="username"
-        style={{ backgroundColor: "white", marginBottom: 0, paddingLeft: 1 }}
+        style={{ backgroundColor: "#1f1f1f", marginBottom: 0, paddingLeft: 1 }}
       />
       <button
         type="submit"
