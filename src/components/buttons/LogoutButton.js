@@ -5,9 +5,9 @@ import { signOut } from "next-auth/react";
 
 // onClick={() => signOut()}
 export default function LogoutButton({
-  className = "flex items-center gap-2 border p-2 px-4 shadow",
+  className = "flex items-center gap-2 border border-[#5b5b5b] p-2 px-4 shadow",
   iconLeft = false,
-  iconClasses = "",
+  iconClasses = "text-amber-600",
 }) {
   return (
     <button className={className} onClick={() => signOut()}>
