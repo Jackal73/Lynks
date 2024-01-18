@@ -94,7 +94,7 @@ function upperFirst(str) {
 }
 
 export default function PageButtonsForm({ user, page }) {
-  const pageSavedButtonsKeys = Object.keys(page.buttons);
+  const pageSavedButtonsKeys = Object.keys(page.buttons || {});
   const pageSavedButtonsInfo = pageSavedButtonsKeys.map((k) =>
     allButtons.find((b) => b.key === k)
   );

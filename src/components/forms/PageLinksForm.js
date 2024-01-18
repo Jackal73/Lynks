@@ -103,7 +103,7 @@ export default function PageLinksForm({ page, user }) {
                   <div className="bg-[#1f1f1f] aspect-square overflow-hidden w-16 h-16 inline-flex justify-center items-center">
                     {l.icon && (
                       <Image
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-fit"
                         src={l.icon}
                         alt={"icon"}
                         height={64}
