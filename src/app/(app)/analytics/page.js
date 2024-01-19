@@ -78,8 +78,8 @@ export default async function AnalyticsPage() {
               <FontAwesomeIcon icon={faLink} />
             </div>
             <div className="grow">
-              <h3 className="text-[#7b7b7b]">{link.title || "no title"}</h3>
-              <p className="text-gray-400 text-sm">
+              <h3 className="text-gray-400">{link.title || "no title"}</h3>
+              <p className=" text-sm text-[#7b7b7b]">
                 {link.subtitle || "no description"}
               </p>
               <a
