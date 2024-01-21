@@ -13,7 +13,7 @@ export default function AppSidebar() {
   return (
     <nav className="inline-flex flex-col text-center mt-8 gap-2 text-[#7b7b7b]">
       <Link
-        href={"/lynkx.vercel.app/account"}
+        href={"/account"}
         className={
           "flex gap-4 p-2 " +
           (path === "/account" ? "text-amber-600 font-semibold" : "")
