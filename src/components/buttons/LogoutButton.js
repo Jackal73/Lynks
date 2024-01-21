@@ -5,7 +5,7 @@ import { signOut } from "next-auth/react";
 
 // onClick={() => signOut()}
 export default function LogoutButton({
-  className = "flex items-center gap-2 border border-[#5b5b5b] p-2 px-4 shadow",
+  className = "flex items-center gap-2 sm:border sm:border-[#5b5b5b] p-2 sm:px-4 shadow",
   iconLeft = false,
   iconClasses = "text-amber-600",
 }) {
@@ -14,7 +14,7 @@ export default function LogoutButton({
       {iconLeft && (
         <FontAwesomeIcon icon={faRightFromBracket} className={iconClasses} />
       )}
-      <span>Logout</span>
+      <span className="sm:flex hidden">Logout</span>
       {!iconLeft && (
         <FontAwesomeIcon icon={faRightFromBracket} className={iconClasses} />
       )}
