@@ -27,7 +27,7 @@ export default function AppSidebar() {
         <span>My Page</span>
       </Link>
       <Link
-        href={"/lynkx.vercel.app/analytics"}
+        href={"/analytics"}
         className={
           "flex gap-4 p-2 " +
           (path === "/analytics" ? "text-amber-600 font-semibold" : "")
