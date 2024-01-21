@@ -13,7 +13,7 @@ export default async function Home() {
             <br /> for everything
           </h1>
           <h2 className="text-[#7b7b7b] text-xl mt-6">
-            Share your links, social profiles, contact info and more on one
+            Share your links, social profiles, contact info and more on ONE
             page!
           </h2>
         </div>

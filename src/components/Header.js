@@ -22,7 +22,7 @@ export default async function Header() {
           </nav>
         </div>
 
-        <nav className="flex items-center sm:gap-4 gap-1 text-sm text-[#9b9b9b]">
+        <nav className="flex items-center sm:gap-4 gap-3 text-sm text-[#9b9b9b]">
           {!!session && (
             <>
               <Link href={"/account"}>Hello, {session?.user?.name}</Link>
@@ -31,7 +31,7 @@ export default async function Header() {
           )}
           {!session && (
             <>
-              <Link href={"/login"}>Sign In</Link>
+              <Link href={"/login"}>Sign In / </Link>
               <Link href={"/login"}>Create Account</Link>
             </>
           )}

@@ -43,7 +43,7 @@ export default async function AppTemplate({ children, ...rest }) {
             htmlFor="navCb"
             className="md:hidden ml-8 mt-4 p-2 py-1 rounded-md text-[#9b9b9b] bg-[#3b3b3b] shadow inline-flex items-center gap-2 cursor-pointer"
           >
-            <FontAwesomeIcon icon={faBars} />
+            <FontAwesomeIcon icon={faBars} className="text-amber-600" />
             <span className="">Menu</span>
             {/* <span className="">Open navigation</span> */}
           </label>

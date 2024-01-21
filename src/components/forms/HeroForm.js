@@ -38,7 +38,7 @@ export default function HeroForm({ user }) {
       onSubmit={handleSubmit}
       className="inline-flex items-center shadow-lg shadow-gray-700/20 bg-[#1f1f1f]"
     >
-      <span className="bg-[#1f1f1f] text-[#9b9b9b] py-4 pl-4">lynks.to/</span>
+      <span className="bg-[#1f1f1f] text-[#5b5b5b] py-4 pl-4">lynks.to/</span>
       <input
         // value={username}
         // onChange={(ev) => setUsername(ev.target.value)}
