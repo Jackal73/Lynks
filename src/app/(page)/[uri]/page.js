@@ -57,7 +57,7 @@ export default async function UserPage({ params }) {
     // <div className="bg-blue-950 text-white/90 min-h-screen">
     <div className="bg-[#121212] text-white/80 min-h-screen">
       <div
-        className="min-h-[250px] bg-gray-400 bg-cover bg-no-repeat bg-center"
+        className="sm:min-h-[250px] min-h-[200px] bg-gray-400 bg-cover bg-no-repeat bg-center"
         style={
           page?.bgType === "color"
             ? { backgroundColor: page.bgColor }
